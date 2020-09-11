@@ -24,7 +24,7 @@
 // Mixins.
 
 	@mixin bg($width) {
-		@include keyframes('bg') {
+		@include keyframes('cd') {
 			0%		{ @include vendor('transform', 'translate3d(0,0,0)'); }
 			100%	{ @include vendor('transform', 'translate3d(#{$width * -1},0,0)'); }
 		}
@@ -125,7 +125,7 @@
 		}
 
 	body {
-		background: _palette(bg);
+		background: _palette(cd);
 		overflow: hidden;
 
 		// Stops initial animations until page loads.
@@ -199,15 +199,15 @@
 		width: 100%;
 	}
 
-/* BG */
+/* CD */
 
-	#bg {
+	#cd {
 		@include vendor('animation', 'bg #{_duration(bg)} linear infinite');
 		@include vendor('backface-visibility', 'hidden');
 		@include vendor('transform', 'translate3d(0,0,0)');
 
 		/* Set your background with this */
-		background: _misc(bg);
+		background: _misc(cd);
 
 		background-repeat: repeat-x;
 		height: 100%;
@@ -217,7 +217,7 @@
 		top: 0;
 	}
 
-	@include bg(_misc(bg-width) * 1.5);
+	@include cd(_misc(cd-width) * 1.5);
 
 /* Overlay */
 
@@ -345,7 +345,7 @@
 					font-size: 1.1em;
 
 					&:before {
-						background-color: _palette(nav-icon, hover-bg);
+						background-color: _palette(nav-icon, hover-cd);
 						color: _palette(nav-icon, hover-fg);
 					}
 				}
@@ -391,9 +391,9 @@
 				font-size: 13pt;
 			}
 
-		/* BG */
+		/* CD */
 
-			@include bg(_misc(bg-width));
+			@include cd(_misc(cd-width));
 
 	}
 
@@ -407,9 +407,9 @@
 				font-size: 12pt;
 			}
 
-		/* BG */
+		/* CD */
 
-			@include bg(_misc(bg-width) * 0.5);
+			@include cd(_misc(cd-width) * 0.5);
 
 	}
 
@@ -427,9 +427,9 @@
 				font-size: 11pt;
 			}
 
-		/* BG */
+		/* CD */
 
-			@include bg(_misc(bg-width) * 0.2);
+			@include cd(_misc(bg-width) * 0.2);
 
 		/* Header */
 
@@ -463,9 +463,9 @@
 
 	@include breakpoint('<=mobilep') {
 
-		/* BG */
+		/* CD */
 
-			@include bg(_misc(bg-width) * 0.275);
+			@include cd(_misc(cd-width) * 0.275);
 
 		/* Header */
 
