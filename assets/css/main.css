@@ -209,13 +209,13 @@ input, select, textarea {
 		width: 100%;
 	}
 
-/*OK */
+/*CD */
 
-	#ok {
-		-moz-animation: ok 60s linear infinite;
-		-webkit-animation: ok 60s linear infinite;
-		-ms-animation: ok 60s linear infinite;
-		animation: ok 60s linear infinite;
+	#cd {
+		-moz-animation: cd 60s linear infinite;
+		-webkit-animation: cd 60s linear infinite;
+		-ms-animation: cd 60s linear infinite;
+		animation: cd 60s linear infinite;
 		-moz-backface-visibility: hidden;
 		-webkit-backface-visibility: hidden;
 		-ms-backface-visibility: hidden;
@@ -226,7 +226,7 @@ input, select, textarea {
 		transform: translate3d(0,0,0);
 	/* Set your background with this */
 
-		background: #348cb2 url("images/ok.jpg") bottom left;
+		background: #348cb2 url("images/cd.jpg") bottom left;
 		background-repeat: repeat-x;
 		height: 100%;
 		left: 0;
@@ -235,7 +235,7 @@ input, select, textarea {
 		top: 0;
 	}
 
-	@-moz-keyframes bg {
+	@-moz-keyframes cd {
 		0% {
 			-moz-transform: translate3d(0,0,0);
 			-webkit-transform: translate3d(0,0,0);
@@ -251,7 +251,7 @@ input, select, textarea {
 		}
 	}
 
-	@-webkit-keyframes ok {
+	@-webkit-keyframes cd {
 		0% {
 			-moz-transform: translate3d(0,0,0);
 			-webkit-transform: translate3d(0,0,0);
@@ -267,7 +267,7 @@ input, select, textarea {
 		}
 	}
 
-	@-ms-keyframes ok {
+	@-ms-keyframes cd {
 		0% {
 			-moz-transform: translate3d(0,0,0);
 			-webkit-transform: translate3d(0,0,0);
@@ -283,7 +283,7 @@ input, select, textarea {
 		}
 	}
 
-	@keyframes ok {
+	@keyframes cd {
 		0% {
 			-moz-transform: translate3d(0,0,0);
 			-webkit-transform: translate3d(0,0,0);
@@ -299,7 +299,7 @@ input, select, textarea {
 		}
 	}
 
-	#ok {
+	#cd {
 		background-size: 2250px auto;
 		width: 6750px;
 	}
@@ -736,9 +736,9 @@ input, select, textarea {
 				font-size: 13pt;
 			}
 
-		/* OK */
+		/* CD */
 
-			@-moz-keyframes ok {
+			@-moz-keyframes cd {
 				0% {
 					-moz-transform: translate3d(0,0,0);
 					-webkit-transform: translate3d(0,0,0);
@@ -755,7 +755,7 @@ input, select, textarea {
 
 	}
 
-		@-webkit-keyframes ok {
+		@-webkit-keyframes cd {
 			0% {
 				-moz-transform: translate3d(0,0,0);
 				-webkit-transform: translate3d(0,0,0);
@@ -771,23 +771,7 @@ input, select, textarea {
 			}
 			}
 
-		@-ms-keyframes ok {
-			0% {
-				-moz-transform: translate3d(0,0,0);
-				-webkit-transform: translate3d(0,0,0);
-				-ms-transform: translate3d(0,0,0);
-				transform: translate3d(0,0,0);
-			}
-
-			100% {
-				-moz-transform: translate3d(-1500px,0,0);
-				-webkit-transform: translate3d(-1500px,0,0);
-				-ms-transform: translate3d(-1500px,0,0);
-				transform: translate3d(-1500px,0,0);
-			}
-		}
-
-		@keyframes ok {
+		@-ms-keyframes cd {
 			0% {
 				-moz-transform: translate3d(0,0,0);
 				-webkit-transform: translate3d(0,0,0);
@@ -803,7 +787,23 @@ input, select, textarea {
 			}
 		}
 
-		#ok {
+		@keyframes cd {
+			0% {
+				-moz-transform: translate3d(0,0,0);
+				-webkit-transform: translate3d(0,0,0);
+				-ms-transform: translate3d(0,0,0);
+				transform: translate3d(0,0,0);
+			}
+
+			100% {
+				-moz-transform: translate3d(-1500px,0,0);
+				-webkit-transform: translate3d(-1500px,0,0);
+				-ms-transform: translate3d(-1500px,0,0);
+				transform: translate3d(-1500px,0,0);
+			}
+		}
+
+		#cd {
 			background-size: 1500px auto;
 			width: 4500px;
 		} }
@@ -818,9 +818,9 @@ input, select, textarea {
 				font-size: 12pt;
 			}
 
-		/* OK */
+		/* CD */
 
-			@-moz-keyframes ok {
+			@-moz-keyframes cd {
 				0% {
 					-moz-transform: translate3d(0,0,0);
 					-webkit-transform: translate3d(0,0,0);
@@ -837,7 +837,7 @@ input, select, textarea {
 
 	}
 
-		@-webkit-keyframes ok {
+		@-webkit-keyframes cd {
 			0% {
 				-moz-transform: translate3d(0,0,0);
 				-webkit-transform: translate3d(0,0,0);
@@ -853,23 +853,7 @@ input, select, textarea {
 			}
 			}
 
-		@-ms-keyframes ok {
-			0% {
-				-moz-transform: translate3d(0,0,0);
-				-webkit-transform: translate3d(0,0,0);
-				-ms-transform: translate3d(0,0,0);
-				transform: translate3d(0,0,0);
-			}
-
-			100% {
-				-moz-transform: translate3d(-750px,0,0);
-				-webkit-transform: translate3d(-750px,0,0);
-				-ms-transform: translate3d(-750px,0,0);
-				transform: translate3d(-750px,0,0);
-			}
-		}
-
-		@keyframes ok {
+		@-ms-keyframes cd {
 			0% {
 				-moz-transform: translate3d(0,0,0);
 				-webkit-transform: translate3d(0,0,0);
@@ -885,7 +869,23 @@ input, select, textarea {
 			}
 		}
 
-		#ok {
+		@keyframes cd {
+			0% {
+				-moz-transform: translate3d(0,0,0);
+				-webkit-transform: translate3d(0,0,0);
+				-ms-transform: translate3d(0,0,0);
+				transform: translate3d(0,0,0);
+			}
+
+			100% {
+				-moz-transform: translate3d(-750px,0,0);
+				-webkit-transform: translate3d(-750px,0,0);
+				-ms-transform: translate3d(-750px,0,0);
+				transform: translate3d(-750px,0,0);
+			}
+		}
+
+		#cd {
 			background-size: 750px auto;
 			width: 2250px;
 		} }
@@ -904,9 +904,9 @@ input, select, textarea {
 				font-size: 11pt;
 			}
 
-		/* OK */
+		/* CD */
 
-			@-moz-keyframes ok {
+			@-moz-keyframes cd {
 				0% {
 					-moz-transform: translate3d(0,0,0);
 					-webkit-transform: translate3d(0,0,0);
@@ -923,7 +923,7 @@ input, select, textarea {
 
 	}
 
-		@-webkit-keyframes ok {
+		@-webkit-keyframes cd {
 			0% {
 				-moz-transform: translate3d(0,0,0);
 				-webkit-transform: translate3d(0,0,0);
@@ -939,23 +939,7 @@ input, select, textarea {
 			}
 			}
 
-		@-ms-keyframes ok {
-			0% {
-				-moz-transform: translate3d(0,0,0);
-				-webkit-transform: translate3d(0,0,0);
-				-ms-transform: translate3d(0,0,0);
-				transform: translate3d(0,0,0);
-			}
-
-			100% {
-				-moz-transform: translate3d(-300px,0,0);
-				-webkit-transform: translate3d(-300px,0,0);
-				-ms-transform: translate3d(-300px,0,0);
-				transform: translate3d(-300px,0,0);
-			}
-		}
-
-		@keyframes ok {
+		@-ms-keyframes cd {
 			0% {
 				-moz-transform: translate3d(0,0,0);
 				-webkit-transform: translate3d(0,0,0);
@@ -971,7 +955,23 @@ input, select, textarea {
 			}
 		}
 
-		#ok {
+		@keyframes cd
+			0% {
+				-moz-transform: translate3d(0,0,0);
+				-webkit-transform: translate3d(0,0,0);
+				-ms-transform: translate3d(0,0,0);
+				transform: translate3d(0,0,0);
+			}
+
+			100% {
+				-moz-transform: translate3d(-300px,0,0);
+				-webkit-transform: translate3d(-300px,0,0);
+				-ms-transform: translate3d(-300px,0,0);
+				transform: translate3d(-300px,0,0);
+			}
+		}
+
+		#cd
 			background-size: 300px auto;
 			width: 900px;
 		}
@@ -1002,9 +1002,9 @@ input, select, textarea {
 
 	@media screen and (max-width: 480px) {
 
-		/* BG */
+		/* CD */
 
-			@-moz-keyframes ok {
+			@-moz-keyframes cd {
 				0% {
 					-moz-transform: translate3d(0,0,0);
 					-webkit-transform: translate3d(0,0,0);
@@ -1021,7 +1021,7 @@ input, select, textarea {
 
 	}
 
-		@-webkit-keyframes ok {
+		@-webkit-keyframes cd {
 			0% {
 				-moz-transform: translate3d(0,0,0);
 				-webkit-transform: translate3d(0,0,0);
@@ -1037,23 +1037,7 @@ input, select, textarea {
 			}
 			}
 
-		@-ms-keyframes ok {
-			0% {
-				-moz-transform: translate3d(0,0,0);
-				-webkit-transform: translate3d(0,0,0);
-				-ms-transform: translate3d(0,0,0);
-				transform: translate3d(0,0,0);
-			}
-
-			100% {
-				-moz-transform: translate3d(-412.5px,0,0);
-				-webkit-transform: translate3d(-412.5px,0,0);
-				-ms-transform: translate3d(-412.5px,0,0);
-				transform: translate3d(-412.5px,0,0);
-			}
-		}
-
-		@keyframes ok {
+		@-ms-keyframes cd {
 			0% {
 				-moz-transform: translate3d(0,0,0);
 				-webkit-transform: translate3d(0,0,0);
@@ -1069,7 +1053,23 @@ input, select, textarea {
 			}
 		}
 
-		#ok {
+		@keyframes cd {
+			0% {
+				-moz-transform: translate3d(0,0,0);
+				-webkit-transform: translate3d(0,0,0);
+				-ms-transform: translate3d(0,0,0);
+				transform: translate3d(0,0,0);
+			}
+
+			100% {
+				-moz-transform: translate3d(-412.5px,0,0);
+				-webkit-transform: translate3d(-412.5px,0,0);
+				-ms-transform: translate3d(-412.5px,0,0);
+				transform: translate3d(-412.5px,0,0);
+			}
+		}
+
+		#cd {
 			background-size: 412.5px auto;
 			width: 1237.5px;
 		}
