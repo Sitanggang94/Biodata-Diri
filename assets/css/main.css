@@ -209,13 +209,13 @@ input, select, textarea {
 		width: 100%;
 	}
 
-/* BG */
+/*OK */
 
-	#bg {
-		-moz-animation: bg 60s linear infinite;
-		-webkit-animation: bg 60s linear infinite;
-		-ms-animation: bg 60s linear infinite;
-		animation: bg 60s linear infinite;
+	#ok {
+		-moz-animation: ok 60s linear infinite;
+		-webkit-animation: ok 60s linear infinite;
+		-ms-animation: ok 60s linear infinite;
+		animation: ok 60s linear infinite;
 		-moz-backface-visibility: hidden;
 		-webkit-backface-visibility: hidden;
 		-ms-backface-visibility: hidden;
@@ -251,7 +251,7 @@ input, select, textarea {
 		}
 	}
 
-	@-webkit-keyframes bg {
+	@-webkit-keyframes ok {
 		0% {
 			-moz-transform: translate3d(0,0,0);
 			-webkit-transform: translate3d(0,0,0);
@@ -267,7 +267,7 @@ input, select, textarea {
 		}
 	}
 
-	@-ms-keyframes bg {
+	@-ms-keyframes ok {
 		0% {
 			-moz-transform: translate3d(0,0,0);
 			-webkit-transform: translate3d(0,0,0);
@@ -283,7 +283,7 @@ input, select, textarea {
 		}
 	}
 
-	@keyframes bg {
+	@keyframes ok {
 		0% {
 			-moz-transform: translate3d(0,0,0);
 			-webkit-transform: translate3d(0,0,0);
@@ -299,7 +299,7 @@ input, select, textarea {
 		}
 	}
 
-	#bg {
+	#ok {
 		background-size: 2250px auto;
 		width: 6750px;
 	}
@@ -738,7 +738,7 @@ input, select, textarea {
 
 		/* BG */
 
-			@-moz-keyframes bg {
+			@-moz-keyframes ok {
 				0% {
 					-moz-transform: translate3d(0,0,0);
 					-webkit-transform: translate3d(0,0,0);
@@ -755,7 +755,7 @@ input, select, textarea {
 
 	}
 
-		@-webkit-keyframes bg {
+		@-webkit-keyframes ok {
 			0% {
 				-moz-transform: translate3d(0,0,0);
 				-webkit-transform: translate3d(0,0,0);
@@ -771,7 +771,7 @@ input, select, textarea {
 			}
 			}
 
-		@-ms-keyframes bg {
+		@-ms-keyframes ok {
 			0% {
 				-moz-transform: translate3d(0,0,0);
 				-webkit-transform: translate3d(0,0,0);
@@ -787,7 +787,7 @@ input, select, textarea {
 			}
 		}
 
-		@keyframes bg {
+		@keyframes ok {
 			0% {
 				-moz-transform: translate3d(0,0,0);
 				-webkit-transform: translate3d(0,0,0);
@@ -818,9 +818,9 @@ input, select, textarea {
 				font-size: 12pt;
 			}
 
-		/* BG */
+		/* OK */
 
-			@-moz-keyframes bg {
+			@-moz-keyframes ok {
 				0% {
 					-moz-transform: translate3d(0,0,0);
 					-webkit-transform: translate3d(0,0,0);
@@ -837,7 +837,7 @@ input, select, textarea {
 
 	}
 
-		@-webkit-keyframes bg {
+		@-webkit-keyframes ok {
 			0% {
 				-moz-transform: translate3d(0,0,0);
 				-webkit-transform: translate3d(0,0,0);
@@ -853,7 +853,7 @@ input, select, textarea {
 			}
 			}
 
-		@-ms-keyframes bg {
+		@-ms-keyframes ok {
 			0% {
 				-moz-transform: translate3d(0,0,0);
 				-webkit-transform: translate3d(0,0,0);
@@ -869,7 +869,7 @@ input, select, textarea {
 			}
 		}
 
-		@keyframes bg {
+		@keyframes ok {
 			0% {
 				-moz-transform: translate3d(0,0,0);
 				-webkit-transform: translate3d(0,0,0);
@@ -904,9 +904,9 @@ input, select, textarea {
 				font-size: 11pt;
 			}
 
-		/* BG */
+		/* OK */
 
-			@-moz-keyframes bg {
+			@-moz-keyframes ok {
 				0% {
 					-moz-transform: translate3d(0,0,0);
 					-webkit-transform: translate3d(0,0,0);
@@ -923,7 +923,7 @@ input, select, textarea {
 
 	}
 
-		@-webkit-keyframes bg {
+		@-webkit-keyframes ok {
 			0% {
 				-moz-transform: translate3d(0,0,0);
 				-webkit-transform: translate3d(0,0,0);
@@ -939,7 +939,7 @@ input, select, textarea {
 			}
 			}
 
-		@-ms-keyframes bg {
+		@-ms-keyframes ok {
 			0% {
 				-moz-transform: translate3d(0,0,0);
 				-webkit-transform: translate3d(0,0,0);
@@ -955,7 +955,7 @@ input, select, textarea {
 			}
 		}
 
-		@keyframes bg {
+		@keyframes ok {
 			0% {
 				-moz-transform: translate3d(0,0,0);
 				-webkit-transform: translate3d(0,0,0);
@@ -1004,7 +1004,7 @@ input, select, textarea {
 
 		/* BG */
 
-			@-moz-keyframes bg {
+			@-moz-keyframes ok {
 				0% {
 					-moz-transform: translate3d(0,0,0);
 					-webkit-transform: translate3d(0,0,0);
@@ -1021,7 +1021,7 @@ input, select, textarea {
 
 	}
 
-		@-webkit-keyframes bg {
+		@-webkit-keyframes ok {
 			0% {
 				-moz-transform: translate3d(0,0,0);
 				-webkit-transform: translate3d(0,0,0);
@@ -1037,7 +1037,7 @@ input, select, textarea {
 			}
 			}
 
-		@-ms-keyframes bg {
+		@-ms-keyframes ok {
 			0% {
 				-moz-transform: translate3d(0,0,0);
 				-webkit-transform: translate3d(0,0,0);
@@ -1053,7 +1053,7 @@ input, select, textarea {
 			}
 		}
 
-		@keyframes bg {
+		@keyframes ok {
 			0% {
 				-moz-transform: translate3d(0,0,0);
 				-webkit-transform: translate3d(0,0,0);
